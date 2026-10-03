@@ -1,0 +1,15 @@
+name = "eco-and-deco-bot"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+
+[vars]
+# Адрес сайта на GitHub Pages — поменяйте на свой
+SITE_URL = "https://ВАШ_ЛОГИН.github.io/ВАШ_РЕПОЗИТОРИЙ/"
+INSTAGRAM_URL = "https://www.instagram.com/eco.and.deco/"
+# Откуда разрешены заявки с формы (через запятую). "*" — отовсюду.
+ALLOWED_ORIGIN = "*"
+
+# Секреты НЕ пишите сюда. Задайте их командами:
+#   npx wrangler secret put BOT_TOKEN
+#   npx wrangler secret put OWNER_CHAT_ID
+#   npx wrangler secret put WEBHOOK_SECRET

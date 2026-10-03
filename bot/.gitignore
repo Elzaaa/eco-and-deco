@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+bot/node_modules/
+bot/.wrangler/
+bot/.dev.vars
