@@ -4,10 +4,10 @@ compatibility_date = "2024-09-01"
 
 [vars]
 # Адрес сайта на GitHub Pages — поменяйте на свой
-SITE_URL = "https://ВАШ_ЛОГИН.github.io/ВАШ_РЕПОЗИТОРИЙ/"
+SITE_URL = "https://elzaaa.github.io/eco-and-deco/"
 INSTAGRAM_URL = "https://www.instagram.com/eco.and.deco/"
 # Откуда разрешены заявки с формы (через запятую). "*" — отовсюду.
-ALLOWED_ORIGIN = "*"
+ALLOWED_ORIGIN = "https://elzaaa.github.io"
 
 # Секреты НЕ пишите сюда. Задайте их командами:
 #   npx wrangler secret put BOT_TOKEN
